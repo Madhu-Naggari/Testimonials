@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto" sans-serif;
+}
+.container-fluid {
+  background-color: #1f2933;
+  height: auto;
+  min-height: 100vh;
+  color: #fff;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.color {
+  color: #cced00;
+  font-size: 25px;
+  font-weight: 500;
+}
+.carousel {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  position: relative;
+  top: -90px;
+}
+.carousel-item {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #323f4b;
+  text-align: center;
+}
+.carousel-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.carousel-item p {
+  font-size: 18px;
+  color: #9aa5b1;
+}
+.carousel-item .author {
+  color: #fff;
+}
+.buttons {
+  position: relative;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.buttons button {
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+}
+@media screen and (max-width: 512px) {
+  .carousel-item {
+    min-height: 420px;
+  }
+}
