@@ -28,4 +28,5 @@ A responsive and custom-designed **Testimonials Page** built using **HTML**, **C
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/testimonials-page.git
+   git clone https://github.com/Madhu-Naggari/Testimonials.git
+   cd Testimonials
