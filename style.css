@@ -8,11 +8,11 @@
 .container-fluid {
   background-color: #1f2933;
   height: auto;
-  min-height: 100vh;
+  min-height: 100dvh;
   color: #fff;
 }
 h1 {
-  font-size: 40px;
+  font-size: clamp(30px, 10vw, 45px);
   font-weight: 700;
 }
 .color {
@@ -25,7 +25,7 @@ h1 {
   max-width: 600px;
   height: 100vh;
   position: relative;
-  top: -90px;
+  top: -140px;
 }
 .carousel-item {
   width: 100%;
